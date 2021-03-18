@@ -1,0 +1,39 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Hitixa Patel",
+            "position": "Trainee Software Engineer",
+            "address": "New York, USA",
+            "pId": "p1"
+        },
+        {
+            "id": 2,
+            "name": "Hetu Patel",
+            "position": "Trainee Software Developer",
+            "address": "Chicago, USA",
+            "pId": "p2"
+        },
+        {
+            "id": 3,
+            "name": "Allan",
+            "position": "Batch Owner",
+            "address": "New Jersey, USA",
+            "pId": "p3"
+        },
+        {
+            "id": 4,
+            "name": "John Smith",
+            "position": "Sr. Software Engineer",
+            "address": "Texas, USA",
+            "pId": "p2"
+        },
+        {
+            "id": 5,
+            "name": "Amma Stone",
+            "position": "HR",
+            "address": "Hollywood, USA",
+            "pId": "p1"
+        }
+    ]
+}

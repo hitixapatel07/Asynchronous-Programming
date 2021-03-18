@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+<body class="container">
+<h1 style="text-align: center; color: blue;">Employee Data</h1>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Created At</th>
+      </tr>
+    </thead>
+    <tbody>
+        <%for(let i=0; i < result.length ; i++){%>
+      <tr>
+        <th scope="row"> <%=result[i].id%></th>
+        <td><%=result[i].name%></td>
+        <td><%=result[i].createdAt%></td>
+      </tr>
+      <%}%>
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "pId": "p1",
+            "details": "Training Project",
+            "client": "TCS",
+            "status": "started"
+        },
+        {
+            "pId": "p2",
+            "details": "Software Project",
+            "client": "Microsoft",
+            "status": "pending"
+        },
+        {
+            "pId": "p3",
+            "details": "Software Project",
+            "client": "Google",
+            "status": "ongoing"
+        }
+    ]
+}
